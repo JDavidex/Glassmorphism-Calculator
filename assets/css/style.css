@@ -203,6 +203,11 @@ section.active .container .calculator span:hover {
     font-weight: 600;
 }
 
+section.active .container .calculator span:active {
+    background-color: #14efff;
+    color: #fff;
+}
+
 .container .calculator .clear {
     grid-column: span 2;
     width: 200px;
