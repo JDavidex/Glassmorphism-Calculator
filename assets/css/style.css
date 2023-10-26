@@ -156,9 +156,13 @@ section.active .color:nth-child(3) {
     padding: 10px;
     font-size: 30px;
     background: transparent;
-    color: #fff;
+    color: #8a2435;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+section.active .container .calculator .value {
+    color: #fff;
 }
 
 .container .calculator span {
@@ -166,7 +170,7 @@ section.active .color:nth-child(3) {
     place-items: center;
     width: 100px;
     height: 100px;
-    color: #fff;
+    color: #8a2435;
     font-weight: 400;
     cursor: pointer;
     font-size: 20px;
@@ -176,7 +180,17 @@ section.active .color:nth-child(3) {
     transition: 0.5s;
 }
 
+section.active .container .calculator span {
+    color: #fff;
+}
+
 .container .calculator span:hover {
+    transition: 0s;
+    background: #fff;
+    color: #8a2435;
+}
+
+section.active .container .calculator span:hover {
     transition: 0s;
     background: #fff;
     color: #111;
@@ -198,10 +212,6 @@ section.active .color:nth-child(3) {
 .container .calculator .plus {
     grid-row: span 2;
     height: 200px;
-}
-
-.equal {
-    background: rgba(255, 255, 255, 0.2);
 }
 
 .dark {
