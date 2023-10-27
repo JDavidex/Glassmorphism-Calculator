@@ -156,7 +156,8 @@ section.active .color:nth-child(3) {
     padding: 10px;
     font-size: 30px;
     background: transparent;
-    color: #8a2435;
+    /* color: #8a2435; */
+    color: #fff;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -170,7 +171,8 @@ section.active .container .calculator .value {
     place-items: center;
     width: 100px;
     height: 100px;
-    color: #8a2435;
+    /* color: #8a2435; */
+    color: #fff;
     font-weight: 400;
     cursor: pointer;
     font-size: 20px;
@@ -187,7 +189,8 @@ section.active .container .calculator span {
 .container .calculator span:hover {
     transition: 0s;
     background: #fff;
-    color: #8a2435;
+    /* color: #8a2435; */
+    color: #111;
 }
 
 section.active .container .calculator span:hover {
